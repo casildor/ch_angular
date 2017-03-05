@@ -1,1 +1,1 @@
-"# ch_angular" 
+Angularize the CH web app
