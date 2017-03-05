@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Stock Market Analysis</title>
+
+        <link href="css/style.default.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+
+        <header>
+            <div class="headerwrapper">
+                <div class="header-left no-hamburger">
+                    <a href="index.html" class="logo">
+                        <img src="images/logo.png" alt="" />
+                    </a>
+                </div><!-- header-left -->
+
+                <div class="header-right">
+
+                    <div class="pull-right">
+                        <!--
+                        <form class="form form-stock-symbol" action="#">
+                            <input type="search" class="form-control" placeholder="Stock Symbol" />
+                        </form>
+                        -->
+
+                        <div class="btn-group btn-group-option">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                              <i class="fa fa-caret-down"></i>
+                            </button>
+                            <ul class="dropdown-menu pull-right" role="menu">
+                              <li><a href="cr_index.html"><i class="glyphicon glyphicon-home"></i> Home</a></li>
+                              <li><a href="cr_stock_review.html"><i class="fa fa-cogs"></i> Stock Review</a></li>
+                              <li><a href="cr_about.html"><i class="glyphicon glyphicon-info-sign"></i> About</a></li>
+                              <li><a href="cr_help_open.html"><i class="glyphicon glyphicon-question-sign"></i> Help</a></li>
+                              <li class="divider"></li>
+                              <li><a href="cr_signin2.html"><i class="glyphicon glyphicon-log-in"></i>Sign In</a></li>
+                              <li><a href="cr_signup2.html"><i class="glyphicon glyphicon-user"></i>Sign Up</a></li>
+                            </ul>
+                        </div><!-- btn-group -->
+
+                    </div><!-- pull-right -->
+
+                </div><!-- header-right -->
+
+            </div><!-- headerwrapper -->
+        </header>
+
+        <section>
+            <div class="mainwrapper no-right-border">
+
+                    <div class="contentpanel">
+                        <div class="panel panel-signin">
+                            <div class="panel-body">
+                                <div class="logo text-center">
+                                    <img src="images/logo-primary.png" alt="Chain Logo" >
+                                </div>
+                                <h4 class="text-center mb5">Already A Member?</h4>
+                                <p class="text-center">Sign in to your account</p>
+
+                                <div class="mb20"></div>
+
+                                <form action="cr_dashboard.html" method="post">
+                                    <div class="input-group mb15">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                        <input type="text" class="form-control" placeholder="Username">
+                                    </div><!-- input-group -->
+                                    <div class="input-group mb15">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                                        <input type="password" class="form-control" placeholder="Password">
+                                    </div><!-- input-group -->
+
+                                    <div class="clearfix">
+                                        <div class="pull-left">
+                                            <div class="ckbox ckbox-primary">
+                                                <input type="checkbox" id="rememberMe" value="1">
+                                                <label for="rememberMe">Remember Me</label>
+                                            </div>
+                                        </div>
+                                        <div class="pull-right">
+                                            <button type="submit" class="btn btn-primary">Sign In <i class="fa fa-angle-right ml5"></i></button>
+                                        </div>
+                                    </div>
+                                </form>
+
+                            </div><!-- panel-body -->
+                            <div class="panel-footer">
+                                <a href="cr_signup2.html" class="btn btn-primary btn-block">Not A Member? Create Account Now</a>
+                            </div><!-- panel-footer -->
+                        </div><!-- panel -->
+                    </div><!-- contentpanel -->
+
+            </div><!-- mainwrapper -->
+        </section>
+
+        <script src="js/jquery-1.11.1.min.js"></script>
+        <script src="js/jquery-migrate-1.2.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/modernizr.min.js"></script>
+        <script src="js/pace.min.js"></script>
+        <script src="js/retina.min.js"></script>
+        <script src="js/jquery.cookies.js"></script>
+
+        <script src="js/custom.js"></script>
+    </body>
+</html>

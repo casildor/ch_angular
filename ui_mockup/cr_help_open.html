@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Stock Market Analysis</title>
+
+        <link href="css/style.default.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+
+        <header>
+            <div class="headerwrapper">
+                <div class="header-left no-hamburger">
+                    <a href="index.html" class="logo">
+                        <img src="images/logo.png" alt="" />
+                    </a>
+                </div><!-- header-left -->
+
+                <div class="header-right">
+
+                    <div class="pull-right">
+                        <!--
+                        <form class="form form-stock-symbol" action="#">
+                            <input type="search" class="form-control" placeholder="Stock Symbol" />
+                        </form>
+                        -->
+
+                        <div class="btn-group btn-group-option">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                              <i class="fa fa-caret-down"></i>
+                            </button>
+                            <ul class="dropdown-menu pull-right" role="menu">
+                              <li><a href="cr_index.html"><i class="glyphicon glyphicon-home"></i> Home</a></li>
+                              <li><a href="cr_stock_review.html"><i class="fa fa-cogs"></i> Stock Review</a></li>
+                              <li><a href="cr_about.html"><i class="glyphicon glyphicon-info-sign"></i> About</a></li>
+                              <li><a href="cr_help_open.html"><i class="glyphicon glyphicon-question-sign"></i> Help</a></li>
+                              <li class="divider"></li>
+                              <li><a href="cr_signin2.html"><i class="glyphicon glyphicon-log-in"></i>Sign In</a></li>
+                              <li><a href="cr_signup2.html"><i class="glyphicon glyphicon-user"></i>Sign Up</a></li>
+                            </ul>
+                        </div><!-- btn-group -->
+
+                    </div><!-- pull-right -->
+
+                </div><!-- header-right -->
+
+            </div><!-- headerwrapper -->
+        </header>
+
+        <section>
+            <div class="mainwrapper no-right-border">
+
+                <div class="pageheader">
+                    <div class="media">
+                        <div class="pageicon pull-left">
+                            <i class="fa fa-question"></i>
+                        </div>
+                        <div class="media-body">
+                            <ul class="breadcrumb">
+                                <li><a href=""><i class="glyphicon glyphicon-question-sign"></i></a></li>
+                                <li>Help</li>
+                            </ul>
+                            <h4>Help</h4>
+                        </div>
+                    </div><!-- media -->
+                </div><!-- pageheader -->
+
+                <div class="contentpanel">
+
+                    <div class="row row-stat">
+                        <div class="col-sm-12 col-md-12">
+
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs nav-line">
+                                <li class="active"><a href="#help1" data-toggle="tab"><strong>Help1</strong></a></li>
+                                <li><a href="#help2" data-toggle="tab"><strong>Help2</strong></a></li>
+                                <li><a href="#help3" data-toggle="tab"><strong>Help3</strong></a></li>
+                                <li><a href="#help4" data-toggle="tab"><strong>Help4</strong></a></li>
+                                <li><a href="#help5" data-toggle="tab"><strong>Help5</strong></a></li>
+                            </ul>
+
+                            <!-- Tab panes -->
+                            <div class="tab-content nopadding noborder">
+
+                                <div class="tab-pane active" id="help1">
+
+                                    <div class="panel panel-default nomargin">
+                                        <div class="panel-heading">
+                                            <div class="panel-btns">
+                                                <a href="" class="panel-minimize tooltips" data-toggle="tooltip" title="Minimize Panel"><i class="fa fa-minus"></i></a>
+                                            </div><!-- panel-btns -->
+                                            <h4 class="panel-title">Help 1</h4>
+                                            <p>Help 1 info.</p>
+                                        </div><!-- panel-heading -->
+                                        <div class="panel-body padding10">
+                                            <div class="tinystat pull-left">
+                                                <div id="sparkline" class="chart mt5"></div>
+                                                <div class="datainfo">
+                                                    <span class="text-muted">Average Sales</span>
+                                                    <h4>$712,500</h4>
+                                                </div>
+                                            </div><!-- tinystat -->
+                                            <div class="tinystat pull-right">
+                                                <div id="sparkline2" class="chart mt5"></div>
+                                                <div class="datainfo">
+                                                    <span class="text-muted">Total Sales</span>
+                                                    <h4>$141,513</h4>
+                                                </div>
+                                            </div><!-- tinystat -->
+                                        </div><!-- panel-body -->
+                                    </div><!-- panel -->
+
+                                </div><!-- tab-pane -->
+
+                                <div class="tab-pane" id="help2">
+
+                                    <div class="panel panel-default nomargin">
+                                        <div class="panel-heading">
+                                            <div class="panel-btns">
+                                                <a href="" class="panel-minimize tooltips" data-toggle="tooltip" title="Minimize Panel"><i class="fa fa-minus"></i></a>
+                                            </div><!-- panel-btns -->
+                                            <h4 class="panel-title">Help 2</h4>
+                                            <p>Help 2 info.</p>
+                                        </div><!-- panel-heading -->
+                                        <div class="panel-body padding10">
+
+                                            <div class="panel panel-dark-head widget-slider nomargin">
+                                                <div class="panel-heading">
+                                                    <h5 class="panel-title">Content Slider</h5>
+                                                </div>
+                                                <div class="panel-body padding10">
+                                                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+                                                        <!-- Wrapper for slides -->
+                                                        <div class="carousel-inner">
+                                                            <div class="item active">
+                                                                <div class="media">
+                                                                    <div class="media-body">
+                                                                        <h4 class="media-heading"><a href="blog-single.html">Adding Touch Support To Website</a></h4>
+                                                                        <p class="media-desc">Lorem ipsum dolor sit amet, consectetur adipisicing...</p>
+                                                                    </div>
+                                                                </div><!-- media -->
+                                                            </div><!-- item -->
+
+                                                            <div class="item">
+                                                                <div class="media">
+                                                                    <div class="media-body">
+                                                                        <h4 class="media-heading"><a href="blog-single.html">Grab Info From URL</a></h4>
+                                                                        <p class="media-desc">Voluptatem quia voluptas sit aspernatur aut consectetur odit aut...</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div><!-- item -->
+
+                                                            <div class="item">
+                                                                <div class="media">
+                                                                    <div class="media-body">
+                                                                        <h4 class="media-heading"><a href="blog-single.html">jQuery Form Validation</a></h4>
+                                                                        <p class="media-desc">Voluptatem quia voluptas sit aspernatur aut consectetur odit aut...</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div><!-- item -->
+
+                                                        </div><!-- carousel-inner -->
+
+                                                        <!-- Controls -->
+                                                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                                                            <span class="fa fa-angle-left"></span>
+                                                        </a>
+                                                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                                                            <span class="fa fa-angle-right"></span>
+                                                        </a>
+
+                                                    </div><!-- carousel -->
+                                                </div><!-- panel-body -->
+                                            </div><!-- panel -->
+
+                                        </div><!-- panel-body -->
+                                    </div><!-- panel -->
+
+                                </div><!-- tab-pane -->
+
+                                <div class="tab-pane" id="help3">
+
+                                    <div class="panel panel-default nomargin">
+                                        <div class="panel-heading">
+                                            <div class="panel-btns">
+                                                <a href="" class="panel-minimize tooltips" data-toggle="tooltip" title="Minimize Panel"><i class="fa fa-minus"></i></a>
+                                            </div><!-- panel-btns -->
+                                            <h4 class="panel-title">Help 3</h4>
+                                            <p>Help 3 info.</p>
+                                        </div><!-- panel-heading -->
+                                        <div class="panel-body padding10">
+                                            <p class="nomargin">Coming Soon!</p>
+                                        </div><!-- panel-body -->
+                                    </div><!-- panel -->
+
+                                </div><!-- tab-pane -->
+
+                                <div class="tab-pane" id="help4">
+
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <div class="panel-btns">
+                                                <a href="" class="panel-minimize tooltips" data-toggle="tooltip" title="Minimize Panel"><i class="fa fa-minus"></i></a>
+                                            </div><!-- panel-btns -->
+                                            <h4 class="panel-title">Help 4</h4>
+                                            <p>Help 4 info.</p>
+                                        </div><!-- panel-heading -->
+                                        <div class="panel-body padding10">
+                                            <p class="nomargin">Coming Soon!</p>
+                                        </div><!-- panel-body -->
+                                    </div><!-- panel -->
+
+                                </div><!-- tab-pane -->
+
+                                <div class="tab-pane" id="help5">
+
+                                    <div class="panel panel-default nomargin">
+                                        <div class="panel-heading">
+                                            <div class="panel-btns">
+                                                <a href="" class="panel-minimize tooltips" data-toggle="tooltip" title="Minimize Panel"><i class="fa fa-minus"></i></a>
+                                            </div><!-- panel-btns -->
+                                            <h4 class="panel-title">Help 5</h4>
+                                            <p>Help 5 info.</p>
+                                        </div><!-- panel-heading -->
+                                        <div class="panel-body padding10">
+                                            <p class="nomargin">Coming Soon!</p>
+                                        </div><!-- panel-body -->
+                                    </div><!-- panel -->
+
+                                </div><!-- tab-pane -->
+
+                            </div><!-- tab-content -->
+                        </div><!-- col-sm-12 col-md-12 -->
+                    </div><!-- row -->
+
+                </div><!-- contentpanel -->
+
+            </div><!-- mainwrapper -->
+        </section>
+
+
+        <script src="js/jquery-1.11.1.min.js"></script>
+        <script src="js/jquery-migrate-1.2.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/modernizr.min.js"></script>
+        <script src="js/pace.min.js"></script>
+        <script src="js/retina.min.js"></script>
+        <script src="js/jquery.cookies.js"></script>
+
+        <script src="js/jquery.prettyPhoto.js"></script>
+        <script src="js/holder.js"></script>
+        <script src="js/morris.min.js"></script>
+        <script src="js/raphael-2.1.0.min.js"></script>
+        <script src="js/jquery.sparkline.min.js"></script>
+
+        <script src="js/custom.js"></script>
+        <script>
+        jQuery(document).ready(function(){
+            jQuery("a[data-rel^='prettyPhoto']").prettyPhoto();
+/*
+            new Morris.Line({
+                // ID of the element in which to draw the chart.
+                element: 'line-chart',
+                // Chart data records -- each entry in this array corresponds to a point on
+                // the chart.
+                data: [
+                    { y: '2006', a: 50, b: 0 },
+                    { y: '2007', a: 60,  b: 25 },
+                    { y: '2008', a: 45,  b: 30 },
+                    { y: '2009', a: 40,  b: 20 },
+                    { y: '2010', a: 50,  b: 35 },
+                    { y: '2011', a: 60,  b: 50 },
+                    { y: '2012', a: 65, b: 55 }
+                ],
+                xkey: 'y',
+                ykeys: ['a', 'b'],
+                labels: ['Series A', 'Series B'],
+                gridTextColor: 'rgba(255,255,255,0.5)',
+                lineColors: ['#5cb85c', '#d9534f'],
+                lineWidth: '1px',
+                hideHover: 'always',
+                smooth: false,
+                grid: true
+            });
+*/
+            jQuery('#sparkline').sparkline([4,3,3,1,4,3,2,2,3,10,9,6], {
+                  type: 'bar',
+                  height:'30px',
+                  barColor: '#5cb85c'
+            });
+
+            jQuery('#sparkline2').sparkline([9,8,8,6,9,10,6,5,6,3,4,2], {
+                  type: 'bar',
+                  height:'30px',
+                  barColor: '#d9534f'
+            });
+        });
+        </script>
+
+    </body>
+</html>

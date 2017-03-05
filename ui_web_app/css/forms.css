@@ -1,0 +1,130 @@
+/** FORMS **/
+
+
+/*ERROR*/
+.error-text,
+fieldset.error-text,
+select.error-text,
+input[type="text"].error-text,
+input[type="password"].error-text,
+input[type="date"].error-text,
+input[type="datetime"].error-text,
+input[type="datetime-local"].error-text,
+input[type="month"].error-text,
+input[type="week"].error-text,
+input[type="email"].error-text,
+input[type="number"].error-text,
+input[type="search"].error-text,
+input[type="tel"].error-text,
+input[type="time"].error-text,
+input[type="url"].error-text,
+input[type="checkbox"].error-text,
+textarea.error-text{
+	color: #ed1c24;
+}
+fieldset.error-border,
+select.error-border,
+input[type="text"].error-border,
+input[type="password"].error-border,
+input[type="date"].error-border,
+input[type="datetime"].error-border,
+input[type="datetime-local"].error-border,
+input[type="month"].error-border,
+input[type="week"].error-border,
+input[type="email"].error-border,
+input[type="number"].error-border,
+input[type="search"].error-border,
+input[type="tel"].error-border,
+input[type="time"].error-border,
+input[type="url"].error-border,
+input[type="checkbox"].error-border,
+textarea.error-border{
+	border-color: #880b11;
+}
+fieldset.error-background,
+select.error-background,
+input[type="text"].error-background,
+input[type="password"].error-background,
+input[type="date"].error-background,
+input[type="datetime"].error-background,
+input[type="datetime-local"].error-background,
+input[type="month"].error-background,
+input[type="week"].error-background,
+input[type="email"].error-background,
+input[type="number"].error-background,
+input[type="search"].error-background,
+input[type="tel"].error-background,
+input[type="time"].error-background,
+input[type="url"].error-background,
+input[type="checkbox"].error-background,
+textarea.error-background{
+	background: #ed1c24;
+	color: white;
+	border-color: transparent;
+}
+input[type="text"].error-background::-webkit-input-placeholder{
+	background: #ed1c24;
+	color: white;
+	border-color: transparent;
+}
+input[type="text"].error-background:-moz-placeholder{
+	background: #ed1c24;
+	color: white;
+	opacity: 1;
+	border-color: transparent;
+}
+input[type="text"].error-background::-moz-placeholder{
+	background: #ed1c24;
+	color: white;
+	opacity: 1;
+	border-color: transparent;
+}
+input[type="text"].error-background::-ms-input-placeholder{
+	background: #ed1c24;
+	color: white;
+	border-color: transparent;
+}
+input[type="email"].error-background::-webkit-input-placeholder{
+	background: #ed1c24;
+	color: white;
+	border-color: transparent;
+}
+input[type="email"].error-background:-moz-placeholder{
+	background: #ed1c24;
+	color: white;
+	opacity: 1;
+	border-color: transparent;
+}
+input[type="email"].error-background::-moz-placeholder{
+	background: #ed1c24;
+	color: white;
+	opacity: 1;
+	border-color: transparent;
+}
+input[type="email"].error-background::-ms-input-placeholder{
+	background: #ed1c24;
+	color: white;
+	border-color: transparent;
+}
+input[type="password"].error-background::-webkit-input-placeholder{
+	background: #ed1c24;
+	color: white;
+	border-color: transparent;
+}
+input[type="password"].error-background:-moz-placeholder{
+	background: #ed1c24;
+	color: white;
+	opacity: 1;
+	border-color: transparent;
+}
+input[type="password"].error-background::-moz-placeholder{
+	background: #ed1c24;
+	color: white;
+	opacity: 1;
+	border-color: transparent;
+}
+input[type="password"].error-background::-ms-input-placeholder{
+	background: #ed1c24;
+	color: white;
+	border-color: transparent;
+}
